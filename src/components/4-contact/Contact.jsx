@@ -6,9 +6,6 @@ import contactAnimation from "../../animation/contact.json";
 
 const Contact = () => {
    const [state, handleSubmit] = useForm("xanwygkp");
-   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
-   }
 
    return (
       <section className="contact-us">
