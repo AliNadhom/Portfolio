@@ -50,6 +50,11 @@ main section.left-section.flex button.active {
    2. Right Section ==> Card
 ================================== */
 
+.icon-arrow-right {
+  font-size: 1.2rem;
+  margin-left: 0.1rem;
+}
+
 main section.right-section.flex {
   flex-grow: 1;
   justify-content: center;
@@ -107,16 +112,18 @@ main section.right-section.flex {
 
 .card .icon-github,
 .card .icon-link {
-  font-size: 1.2rem;
-  color: var(--subtitle);
+  font-size: 1.3rem;
+  color: var(--blue);
+  margin-left: 0.3rem;
 }
 
 .card .icon-github:hover,
 .card .icon-link:hover {
   font-size: 1.25rem;
-  color: var(--icon-hover);
+  color: var(--subtitle);
   cursor: pointer;
 }
+
 
 .card a.link {
   font-size: 0.9rem;

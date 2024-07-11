@@ -6,14 +6,22 @@ export const myProjects = [
       description:
          "This setup is typical for dashboard or administrative applications, offering enhanced user interface and navigation functionalities through MUI components and React Router.",
       url: "https://admin-dashboard-2740f-4e2b7.web.app/",
+      imgWidth: "270rem",
+      imgHeight: "160rem",
+      githubUrl: "https://github.com/AliNadhom/admin-dashboard",
+      goto: "Go To Project",
    },
    {
       projectTitle: "Ecommerce",
       category: ["react", "css"],
-      imgPath: "./dist/prayer-times.pic.jpg",
+      imgPath: "./images/ecommerce.png",
       description:
-         "This is an Islamic prayer times application using React, integrating Material-UI (MUI) components, and implementing location-based prayer times calculation through API integration and moment.js for accurate schedule updates.",
-      url: "https://html-css-ecommerce-b4c9c.web.app",
+         "AWU Shopping is a comprehensive e-commerce website designed to provide a seamless shopping experience for users. The project includes a set of essential pages that allow users to interact with various products and services.",
+      imgWidth: "266rem",
+      url: "https://html-css-ecommerce-b4c9c.web.app/",
+      // imgHeight: "266rem",
+      githubUrl: "https://github.com/AliNadhom/Ecommerce",
+      goto: "Go To Project",
    },
    {
       projectTitle: "Eczana Life",
@@ -21,21 +29,34 @@ export const myProjects = [
       imgPath: "./images/eczalife.pic.jpg",
       url: "https://eczalife.com.tr/login/?redirectTo=%2Fpurchases%2F",
       description:
-         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quia dolorem unde minima odio alias possimus cupiditate eos in iure rerum hic fugiat quam adipisci quis quidem ex vel culpa!",
+         "This project for a pharmacy manages customers and products, displays statistics, and adds new products through a graphical interface. It features enhanced user experience and effective error handling.",
+      imgWidth: "266rem",
+      imgHeight: "148rem",
+      goto: "Go To Project",
    },
    {
-      projectTitle: "react project",
+      projectTitle: "Master Bank",
       category: ["react"],
-      imgPath: "./images/4.jpg",
+      imgPath: "./images/masterbank.png",
       description:
          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quia dolorem unde minima odio alias possimus cupiditate eos in iure rerum hic fugiat quam adipisci quis quidem ex vel culpa!",
+      url: "https://hoobank-1b66d.web.app/",
+      imgWidth: "266rem",
+      // imgHeight: "266rem",
+      githubUrl: "https://github.com/AliNadhom/master-bank",
+      goto: "Go To Project",
    },
    {
-      projectTitle: "css project",
+      projectTitle: "Prayer Times",
       category: ["css"],
-      imgPath: "./images/5.jpg",
+      imgPath: "./images/prayer-times.pic.png",
+      url: "https://prayers-timings.web.app/",
       description:
-         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quia dolorem unde minima odio alias possimus cupiditate eos in iure rerum hic fugiat quam adipisci quis quidem ex vel culpa!",
+         "The project is creating an interactive prayer times interface using React and the Material-UI library. The project aims to display various prayer times and update them dynamically based on the selected city.",
+      imgWidth: "270rem",
+      imgHeight: "160rem",
+      githubUrl: "https://github.com/AliNadhom/prayer-times",
+      goto: "Go To Project",
    },
 
    {
@@ -44,6 +65,9 @@ export const myProjects = [
       imgPath: "./images/7.jpg",
       description:
          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quia dolorem unde minima odio alias possimus cupiditate eos in iure rerum hic fugiat quam adipisci quis quidem ex vel culpa!",
+      imgWidth: "266rem",
+      // imgHeight: "266rem",
+      goto: "Coming Soon !!",
    },
    {
       projectTitle: "node project",
@@ -51,6 +75,9 @@ export const myProjects = [
       imgPath: "./images/8.jpg",
       description:
          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quia dolorem unde minima odio alias possimus cupiditate eos in iure rerum hic fugiat quam adipisci quis quidem ex vel culpa!",
+      imgWidth: "266rem",
+      // imgHeight: "266rem",
+      goto: "Coming Soon !!",
    },
    {
       projectTitle: "javaScript project",
@@ -58,5 +85,8 @@ export const myProjects = [
       imgPath: "./images/9.jpg",
       description:
          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quia dolorem unde minima odio alias possimus cupiditate eos in iure rerum hic fugiat quam adipisci quis quidem ex vel culpa!",
+      imgWidth: "266rem",
+      // imgHeight: "266rem",
+      goto: "Coming Soon !!",
    },
 ];

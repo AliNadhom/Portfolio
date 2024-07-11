@@ -85,7 +85,12 @@ const Main = () => {
                         key={item.imgPath}
                         className="  card"
                      >
-                        <img width={266} src={item.imgPath} alt="" />
+                        <img
+                           width={item.imgWidth}
+                           height={item.imgHeight}
+                           src={item.imgPath}
+                           alt=""
+                        />
 
                         <div style={{ width: "266px" }} className="box">
                            <h1 className="title">{item.projectTitle}</h1>
@@ -93,8 +98,10 @@ const Main = () => {
 
                            <div className="flex icons">
                               <div style={{ gap: "11px" }} className="flex">
-                                 <div className="icon-link"></div>
-                                 <div className="icon-github"></div>
+                                 <a
+                                    className="icon-github"
+                                    href={item.githubUrl}
+                                 ></a>
                               </div>
 
                               <a
@@ -103,11 +110,13 @@ const Main = () => {
                                  target="_blank"
                                  rel="noopener noreferrer"
                               >
-                                 more
-                                 <span
-                                    style={{ alignSelf: "end" }}
-                                    className="icon-arrow-right"
-                                 ></span>
+                                 {item.goto}
+                                 {item.goto == "Go To Project" ? (
+                                    <span
+                                       style={{ alignSelf: "end" }}
+                                       className="icon-arrow-right"
+                                    ></span>
+                                 ) : null}
                               </a>
                            </div>
                         </div>
