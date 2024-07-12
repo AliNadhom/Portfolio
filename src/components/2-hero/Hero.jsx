@@ -44,12 +44,12 @@ const Hero = () => {
             </p>
 
             <div className="all-icons flex">
-               <a
+               {/* <a
                   href="https://www.instagram.com/ali.aldulaiimi/"
                   className="icon icon-instagram"
                   target="_blank"
                   rel="noopener noreferrer"
-               ></a>
+               ></a> */}
 
                <a
                   className="icon icon-github"

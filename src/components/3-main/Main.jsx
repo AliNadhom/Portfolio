@@ -83,7 +83,7 @@ const Main = () => {
                            stiffness: 50,
                         }}
                         key={item.imgPath}
-                        className="  card"
+                        className="card"
                      >
                         <img
                            width={item.imgWidth}
@@ -98,10 +98,14 @@ const Main = () => {
 
                            <div className="flex icons">
                               <div style={{ gap: "11px" }} className="flex">
-                                 <a
-                                    className="icon-github"
-                                    href={item.githubUrl}
-                                 ></a>
+                                 {item.goto == "Go To Project" ? (
+                                    <a
+                                       className="icon-github"
+                                       href={item.githubUrl}
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                    ></a>
+                                 ) : null}
                               </div>
 
                               <a

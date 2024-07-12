@@ -10,17 +10,17 @@ const Contact = () => {
    return (
       <section className="contact-us">
          <h1 className="title">
-            <span className="icon-envelope"> </span> Contact us
+            <span className="icon-envelope"> </span> Contact me
          </h1>
          <p className="sub-title">
-            Contact us for more information and Get notified when I publish
+            Contact me for more information and Get notified when I publish
             something new.
          </p>
 
          <div style={{ justifyContent: "space-between" }} className="flex">
             <form onSubmit={handleSubmit} className="">
                <div className="flex">
-                  <label htmlFor="email">Your email Address:</label>
+                  <label htmlFor="email">Your email address:</label>
                   <input
                      autoComplete="off"
                      required

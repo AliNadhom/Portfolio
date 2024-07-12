@@ -39,10 +39,10 @@ export const myProjects = [
       category: ["react"],
       imgPath: "./images/masterbank.png",
       description:
-         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quia dolorem unde minima odio alias possimus cupiditate eos in iure rerum hic fugiat quam adipisci quis quidem ex vel culpa!",
+         "MasterBank is an integrated financial platform aimed at simplifying and enhancing users' experience in managing their financial affairs. By providing innovative solutions for selecting credit cards, managing invoices and payments, and offering financial advice, MasterBank helps users significantly improve their financial lives.",
       url: "https://hoobank-1b66d.web.app/",
       imgWidth: "266rem",
-      // imgHeight: "266rem",
+      imgHeight: "140rem",
       githubUrl: "https://github.com/AliNadhom/master-bank",
       goto: "Go To Project",
    },
@@ -60,13 +60,13 @@ export const myProjects = [
    },
 
    {
-      projectTitle: "node project",
+      projectTitle: "Django project",
       category: ["node"],
       imgPath: "./images/7.jpg",
       description:
          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quia dolorem unde minima odio alias possimus cupiditate eos in iure rerum hic fugiat quam adipisci quis quidem ex vel culpa!",
       imgWidth: "266rem",
-      // imgHeight: "266rem",
+      imgHeight: "170rem",
       goto: "Coming Soon !!",
    },
    {
