@@ -40,7 +40,7 @@ export const myProjects = [
       imgPath: "./images/masterbank.png",
       description:
          "MasterBank is an integrated financial platform aimed at simplifying and enhancing users' experience in managing their financial affairs. By providing innovative solutions for selecting credit cards, managing invoices and payments, and offering financial advice, MasterBank helps users significantly improve their financial lives.",
-      url: "https://hoobank-1b66d.web.app/",
+      url: "https://masterbank-4b56f.web.app/",
       imgWidth: "266rem",
       imgHeight: "140rem",
       githubUrl: "https://github.com/AliNadhom/master-bank",
