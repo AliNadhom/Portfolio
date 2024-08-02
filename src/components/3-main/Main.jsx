@@ -67,6 +67,14 @@ const Main = () => {
             >
                Node & Express
             </button>
+            <button
+               onClick={() => {
+                  handleClick("next");
+               }}
+               className={currentActive === "next" ? "active" : null}
+            >
+               Next.js
+            </button>
          </section>
 
          <section className=" flex right-section">

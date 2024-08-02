@@ -12,15 +12,15 @@ export const myProjects = [
       goto: "Go To Project",
    },
    {
-      projectTitle: "Ecommerce",
-      category: ["react", "css"],
-      imgPath: "./images/ecommerce.png",
+      projectTitle: "quiz-buddy ",
+      category: ["react", "next"],
+      imgPath: "./images/quiz.png",
       description:
-         "AWU Shopping is a comprehensive e-commerce website designed to provide a seamless shopping experience for users. The project includes a set of essential pages that allow users to interact with various products and services.",
+         "Create custom quizzes instantly with our AI-driven platform, supporting PDF, TXT, MD, DOC, and DOCX files in any language. Customize the number of questions, quiz duration, and passing score, with instant feedback and easy sharing options. Explore a library of quizzes by other users, all optimized for mobile devices and available in multiple languages.",
       imgWidth: "266rem",
-      url: "https://html-css-ecommerce-b4c9c.web.app/",
-      // imgHeight: "266rem",
-      githubUrl: "https://github.com/AliNadhom/Ecommerce",
+      url: "https://quiz-buddy.xyz/ar",
+      imgHeight: "110rem",
+      githubUrl: "https://github.com/AliNadhom/quiz-buddy",
       goto: "Go To Project",
    },
    {
@@ -60,14 +60,16 @@ export const myProjects = [
    },
 
    {
-      projectTitle: "Django project",
-      category: ["node"],
-      imgPath: "./images/7.jpg",
+      projectTitle: "Ecommerce",
+      category: ["react", "css"],
+      imgPath: "./images/ecommerce.png",
       description:
-         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quia dolorem unde minima odio alias possimus cupiditate eos in iure rerum hic fugiat quam adipisci quis quidem ex vel culpa!",
+         "AWU Shopping is a comprehensive e-commerce website designed to provide a seamless shopping experience for users. The project includes a set of essential pages that allow users to interact with various products and services.",
       imgWidth: "266rem",
-      imgHeight: "170rem",
-      goto: "Coming Soon !!",
+      url: "https://html-css-ecommerce-b4c9c.web.app/",
+      // imgHeight: "266rem",
+      githubUrl: "https://github.com/AliNadhom/Ecommerce",
+      goto: "Go To Project",
    },
    {
       projectTitle: "node project",
