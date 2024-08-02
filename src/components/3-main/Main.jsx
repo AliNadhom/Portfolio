@@ -11,11 +11,11 @@ const Main = () => {
       setcurrentActive(buttonCategory);
 
       const newArr = myProjects.filter((item) => {
-         const ZZZ = item.category.find((myItem) => {
+         const matchedCategory = item.category.find((myItem) => {
             return myItem === buttonCategory;
          });
 
-         return ZZZ === buttonCategory;
+         return matchedCategory === buttonCategory;
       });
 
       setArr(newArr);
