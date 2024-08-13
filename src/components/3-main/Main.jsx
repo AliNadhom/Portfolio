@@ -14,7 +14,6 @@ const Main = () => {
          const matchedCategory = item.category.find((myItem) => {
             return myItem === buttonCategory;
          });
-
          return matchedCategory === buttonCategory;
       });
 

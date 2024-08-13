@@ -46,18 +46,18 @@ export const myProjects = [
       githubUrl: "https://github.com/AliNadhom/master-bank",
       goto: "Go To Project",
    },
-   {
-      projectTitle: "Prayer Times",
-      category: ["css"],
-      imgPath: "./images/prayer-times.pic.png",
-      url: "https://prayers-timings.web.app/",
-      description:
-         "The project is creating an interactive prayer times interface using React and the Material-UI library. The project aims to display various prayer times and update them dynamically based on the selected city.",
-      imgWidth: "270rem",
-      imgHeight: "160rem",
-      githubUrl: "https://github.com/AliNadhom/prayer-times",
-      goto: "Go To Project",
-   },
+   // {
+   //    projectTitle: "Prayer Times",
+   //    category: ["css"],
+   //    imgPath: "./images/prayer-times.pic.png",
+   //    url: "https://prayers-timings.web.app/",
+   //    description:
+   //       "The project is creating an interactive prayer times interface using React and the Material-UI library. The project aims to display various prayer times and update them dynamically based on the selected city.",
+   //    imgWidth: "270rem",
+   //    imgHeight: "160rem",
+   //    githubUrl: "https://github.com/AliNadhom/prayer-times",
+   //    goto: "Go To Project",
+   // },
 
    {
       projectTitle: "Ecommerce",
