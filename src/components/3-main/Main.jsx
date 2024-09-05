@@ -20,6 +20,8 @@ const Main = () => {
       setArr(newArr);
    };
 
+   
+
    return (
       <main className="flex">
          <section className="flex  left-section">

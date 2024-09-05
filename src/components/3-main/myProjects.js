@@ -11,18 +11,18 @@ export const myProjects = [
       githubUrl: "https://github.com/AliNadhom/admin-dashboard",
       goto: "Go To Project",
    },
-   {
-      projectTitle: "quiz-buddy ",
-      category: ["react", "next"],
-      imgPath: "./images/quiz.png",
-      description:
-         "Create custom quizzes instantly with our AI-driven platform, supporting PDF, TXT, MD, DOC, and DOCX files in any language. Customize the number of questions, quiz duration, and passing score, with instant feedback and easy sharing options. Explore a library of quizzes by other users, all optimized for mobile devices and available in multiple languages.",
-      imgWidth: "266rem",
-      url: "https://quiz-buddy.xyz/ar",
-      imgHeight: "110rem",
-      githubUrl: "https://github.com/AliNadhom/quiz-buddy",
-      goto: "Go To Project",
-   },
+   // {
+   //    projectTitle: "quiz-buddy ",
+   //    category: ["react", "next"],
+   //    imgPath: "./images/quiz.png",
+   //    description:
+   //       "Create custom quizzes instantly with our AI-driven platform, supporting PDF, TXT, MD, DOC, and DOCX files in any language. Customize the number of questions, quiz duration, and passing score, with instant feedback and easy sharing options. Explore a library of quizzes by other users, all optimized for mobile devices and available in multiple languages.",
+   //    imgWidth: "266rem",
+   //    url: "https://quiz-buddy.xyz/ar",
+   //    imgHeight: "110rem",
+   //    githubUrl: "https://github.com/AliNadhom/quiz-buddy",
+   //    goto: "Go To Project",
+   // },
    {
       projectTitle: "Eczana Life",
       category: ["node"],
@@ -46,19 +46,6 @@ export const myProjects = [
       githubUrl: "https://github.com/AliNadhom/master-bank",
       goto: "Go To Project",
    },
-   // {
-   //    projectTitle: "Prayer Times",
-   //    category: ["css"],
-   //    imgPath: "./images/prayer-times.pic.png",
-   //    url: "https://prayers-timings.web.app/",
-   //    description:
-   //       "The project is creating an interactive prayer times interface using React and the Material-UI library. The project aims to display various prayer times and update them dynamically based on the selected city.",
-   //    imgWidth: "270rem",
-   //    imgHeight: "160rem",
-   //    githubUrl: "https://github.com/AliNadhom/prayer-times",
-   //    goto: "Go To Project",
-   // },
-
    {
       projectTitle: "Ecommerce",
       category: ["react", "css"],
